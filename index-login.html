@@ -4,9 +4,10 @@
 		<title>Log In</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/custom-login.css"/>
+		<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	</head
 	<body>
-		<div class="row front">
+		<div class="row front" id="login">
 			<div class="col-sm-7 left-side">
 				<div class="left-content">
 					<h1>BROOD</h1>
@@ -14,16 +15,16 @@
 					<div class="row make-list">
 						<div class="col">
 							<ul>
-								<li>Waqt barbaad karo.</li>
-								<li>Load lo.</li>
-								<li>Mahol kharab karo.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Waqt barbaad karo.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Load lo.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Mahol kharab karo.</li>
 							</ul>
 						</div>
 						<div class="col">
 							<ul>
-								<li>Zindagi ki jhand.</li>
-								<li>Woh dekho kabutar.</li>
-								<li>Mamu banaya.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Zindagi ki jhand.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Woh dekho kabutar.</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Mamu banaya.</li>
 							</ul>
 						</div>
 					</div>
@@ -31,20 +32,66 @@
 			</div>
 			<div class="col-sm-5 right-side">
 				<div class="row bar-right">
-					<div class="col b-login">
-						Log In
+					<div class="col b-right b-log">
+						<a href="#login">
+							Log In
+						</a>
 					</div>
-					<div class="col b-signup">
-						Sign Up
+					<div class="col b-left  b-sign">
+						<a href="#signup">
+							Sign Up
+						</a>
 					</div>
 				</div>
-				<div class="login">
+				<div class="form-style">
 					<form>
 						<div class="form-inp">
 							<input type="email" class="form-control form-control-lg" placeholder="Email"/>
 							<input type="password" class="form-control form-control-lg" placeholder="Password"/>
 						</div>
 						<input type="submit" class="form-control form-control-lg" value="Log In"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="row front" id="signup">
+			<div class="col-sm-5 left-side">
+				<div class="left-content">
+					<h1>BROOD</h1>
+					<p>Baithe baithe kya karein, karna nahi kuch kaam. Shuru karo brooding leke kisi ka bhi naam.</p>
+	
+				</div>
+			</div>
+			<div class="col-sm-7 right-side">
+				<div class="row bar-right">
+					<div class="col b-right  b-log">
+						<a href="#login">
+							Log In
+						</a>
+					</div>
+					<div class="col b-left b-sign">
+						<a href="#signup">
+							Sign Up
+						</a>
+					</div>
+				</div>
+				<div class="form-style">
+					<form>
+						<div class="form-inp">
+							<div class="row justify-content-between">
+								<input type="text" class="form-control form-control-lg col-5" placeholder="First Name"/>
+								<i class="fa fa-bolt filler" aria-hidden="true"></i>
+								<input type="text" class="form-control form-control-lg col-5" placeholder="Last Name"/>
+							</div>
+							<input type="email" class="form-control form-control-lg" placeholder="Email"/>
+							<div class="row  justify-content-between">
+								<input type="password" class="form-control form-control-lg col-5" placeholder="Password"/>
+								<i class="fa fa-bolt  filler" aria-hidden="true"></i>
+								<input type="password" class="form-control form-control-lg col-5" placeholder="Re-type Pwd"/>
+							</div>
+							<input type="text" class="form-control form-control-lg" placeholder="Phone Number"/>
+						</div>
+						<input type="submit" class="form-control form-control-lg" value="Sign Up"/>
 					</form>
 				</div>
 			</div>
