@@ -10,6 +10,7 @@ body{
 	background: linear-gradient(#00b3c8, #00c6a1);
 	padding-top: 10%;
 	text-align: center;
+	transition: 1s;
 }
 
 .left-content{
@@ -36,6 +37,7 @@ body{
 	background-image: url("../img/log-back-3.jpg");
 	padding-left: 5%;
 	padding-right: 5%;
+	transition: 1s;
 }
 
 .form-style{
@@ -59,6 +61,7 @@ body{
 	border: none;
 	cursor: pointer;
 	width: 100%;
+	margin-bottom: 0%;
 }
 
 .form-inp{
@@ -72,6 +75,7 @@ body{
 .make-list{
 	text-align: left;
 	padding: 5%;
+	margin-bottom: 20%;
 }
 
 .make-list li{
@@ -105,12 +109,4 @@ body{
 .filler{
 	transform: scale(2) translateY(30%);
 	color: #28bc9f;
-}
-
-#login .b-log a{
-	opacity: 1;
-}
-
-#signup .b-sign a{
-	opacity: 1;
 }
