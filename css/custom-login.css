@@ -99,11 +99,12 @@ body{
 .bar-right a{
 	color: white;
 	opacity: .5;
+	transition: .5s;
 }
 
 .bar-right a:hover{
 	text-decoration: none;
-	opacity: 1;
+	opacity: 1 !important;
 }
 
 .filler{
